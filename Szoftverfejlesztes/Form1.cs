@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.Windows.Input;
+using System.Diagnostics;
 
 namespace Szoftverfejlesztes
 {
@@ -20,6 +21,7 @@ namespace Szoftverfejlesztes
         DataTable dt;
         List<Targy> targyak = new List<Targy>();
         List<Button> buttons = new List<Button>();
+        List<String> yellows = new List<String>();
         Dictionary<int, DataTable> dataTables = new Dictionary<int, DataTable>();
         int szakid = Global.szakid;
         int iterator = 0;
@@ -34,8 +36,6 @@ namespace Szoftverfejlesztes
         public Form1()
         {
             InitializeComponent();
-            this.Size = new System.Drawing.Size(1980, 1020);
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -417,13 +417,8 @@ namespace Szoftverfejlesztes
                 DialogResult dialog = MessageBox.Show("Biztosan ki szeretnéd venni ezt a tárgyat a teljesítettek közül?", "Teljesített tárgy törlése", MessageBoxButtons.YesNo);
                 if (dialog == DialogResult.Yes)
                 {
-                    /*cmd = new SQLiteCommand("select count(ráépülőkód) from előfeltétele where ráépülőkód = '" + (sender as Button).Name + "' and egyszerrefelveheto = 0", adatb.GetConnection());
-                    adatb.openConnection();
-                    int raepules = Convert.ToInt32(cmd.ExecuteScalar().ToString());
-                    adatb.closeConnection();*/
                     wasGreen.Add(green_it, (sender as Button));
                     green_it++;
-                    //targyak.Find(x => x.kod == (sender as Button).Name).Green = true;
                     (sender as Button).BackColor = System.Drawing.Color.Yellow;
                     targyak.Find(x => x.kod == (sender as Button).Name).teljesitett = false;
 
@@ -477,54 +472,11 @@ namespace Szoftverfejlesztes
 
                     deleteCompleted((sender as Button));
                     recountProgress();
-                    //label1.Text = progressBar1.Value.ToString();
-                    //MessageBox.Show("Vege");
                     dataTables.Clear();
                     wasGreen.Clear();
                     resetGreen();
                     iterator = 0;
                     green_it = 0;
-                    /*sda = new SQLiteDataAdapter("select ráépülőkód from előfeltétele where előfeltételkód='" + found.kod + "' and szakid = " + szakid + " and egyszerrefelveheto = 0", adatb.GetConnection());
-                    dt = new DataTable();
-                    sda.Fill(dt);
-                    dataTables.Add(iterator, dt);
-                    iterator++;
-                    DataTable currentdt = new DataTable();
-                    if (iterator == 1)
-                    {
-                        currentdt = dt;
-                    }
-                    else
-                    {
-                        currentdt = dataTables.First(x => x.Key == iterator - 1).Value;
-                    }
-                    if (currentdt.Rows.Count != 0)
-                        {
-                            for (int i = 0; i < currentdt.Rows.Count; i++)
-                            {
-                                if (buttons.Find(x => x.Name == (string)currentdt.Rows[i][0]) != null)
-                                {
-                                    Button current = (buttons.Find(x => x.Name == (string)currentdt.Rows[i][0]));
-                                    if (current.BackColor == System.Drawing.Color.ForestGreen && wasGreen.ContainsValue(current) == false)
-                                    {
-                                        wasGreen.Add(green_it, current);
-                                        MessageBox.Show(targyak.Find(x => x.kod == (string)currentdt.Rows[i][0]).nev);
-                                        green_it++;
-                                    }
-                                    else
-                                    {
-                                        MessageBox.Show(targyak.Find(x => x.kod == (string)currentdt.Rows[i][0]).nev + "-no");
-                                    }
-                                    current.BackColor = System.Drawing.Color.White;
-                                    targyak.Find(x => x.kod == (string)currentdt.Rows[i][0]).teljesitett = false;
-                                    if (targyak.Find(x => x.kod == (string)currentdt.Rows[i][0]).elofeltetel_db - 1 >= 0)
-                                    {
-                                        targyak.Find(x => x.kod == (string)currentdt.Rows[i][0]).elofeltetel_db -= 1;
-                                    }
-                                    deleteCompleted(current);
-                                }
-                            }
-                        }*/
                 }
             }
 
@@ -641,6 +593,20 @@ namespace Szoftverfejlesztes
                 t.elofeltetel_db = 0;
                 t.teljesitett = false;
             }
+            valasztottak.Clear();
+            foreach (KeyValuePair<string, int> elem in valaszthatok)
+            {
+                valasztottak.Add(elem, 0);
+            }
+            textBox2.Text = "";
+            foreach (KeyValuePair<KeyValuePair<string, int>, int> elem in valasztottak)
+            {
+                textBox2.Text += elem.Key.Key + ":" + elem.Value + "/" + elem.Key.Value;
+                textBox2.AppendText(Environment.NewLine);
+                textBox2.SelectionStart = 0;
+                textBox2.ScrollToCaret();
+            }
+            warned = false;
             SetAvailable();
             recountProgress();
         }
@@ -649,12 +615,6 @@ namespace Szoftverfejlesztes
         {
             Button found = sender;
             Targy tFound = targyak.Find(x => x.kod == found.Name);
-            /*if (found.BackColor == System.Drawing.Color.ForestGreen && wasGreen.ContainsValue(found)== false)
-            {
-                MessageBox.Show("input");
-                wasGreen.Add(green_it ,found);
-                green_it++;
-            }*/
             if (wasGreen.ContainsValue(found))
             {
                 //MessageBox.Show(targyak.Find(x => x.kod == found.Name).nev + "found");
@@ -684,9 +644,7 @@ namespace Szoftverfejlesztes
             }
             else
             {
-                currentdt = dt;
-                //currentdt = dataTables.First(x => x.Key == iterator - 1).Value;
-            }
+                currentdt = dt;            }
             //MessageBox.Show(count.ToString());
 
             if (currentdt.Rows.Count > 0)
@@ -772,6 +730,25 @@ namespace Szoftverfejlesztes
                 }
             }
             
+        }
+
+        private void getYellowButtons()
+        {
+            yellows.Clear();
+            foreach (Button btn in buttons) // button.Name = targy.kod alapjan
+            {
+                if (btn.BackColor == System.Drawing.Color.Yellow)
+                { // Ha a gomb hattere sarga akkor hozza adjuk a listahoz
+                    yellows.Add(btn.Name);
+                }
+            }
+        }
+        private void nextSemesterButton_Click(object sender, EventArgs e)
+        {
+            getYellowButtons(); // Lekeri a sarga gombok Name valtozoit(kodok)
+            Debug.WriteLine("Original size: " + yellows.Count);
+            Form3 nextSemester = new Form3(yellows); // Megnyitja a form3-at es at adja a yellows listat
+            nextSemester.Show();
         }
 
     }

@@ -18,3 +18,86 @@ C:\Users\Beti\source\repos\Szoftverfejlesztes\Szoftverfejlesztes\obj\Debug\Szoft
 C:\Users\Beti\source\repos\Szoftverfejlesztes\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.pdb
 C:\Users\Beti\source\repos\Szoftverfejlesztes\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csprojAssemblyReference.cache
 C:\Users\Beti\source\repos\Szoftverfejlesztes\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form2.resources
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csprojAssemblyReference.cache
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form1.resources
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form2.resources
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form3.resources
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Properties.Resources.resources
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.GenerateResource.cache
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.CoreCompileInputs.cache
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.exe
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.pdb
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe.config
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.pdb
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.xml
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.pdb
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.xml
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.xml
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\pamme\Downloads\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.CopyComplete
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe.config
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.pdb
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.xml
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.pdb
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.xml
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.xml
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csprojAssemblyReference.cache
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form1.resources
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form2.resources
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form3.resources
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Properties.Resources.resources
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.GenerateResource.cache
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.CoreCompileInputs.cache
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.CopyComplete
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.exe
+C:\Users\bireb\Desktop\T-rgygr-f-master (1)\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.pdb
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe.config
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.exe
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\Szoftverfejlesztes.pdb
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.xml
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.pdb
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.xml
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.xml
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csprojAssemblyReference.cache
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form1.resources
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form2.resources
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Form3.resources
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.Properties.Resources.resources
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.GenerateResource.cache
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.csproj.CopyComplete
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.exe
+C:\Users\Beti\Desktop\Proj\T-rgygr-f-master\Szoftverfejlesztes\obj\Debug\Szoftverfejlesztes.pdb
